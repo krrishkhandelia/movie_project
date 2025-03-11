@@ -1,14 +1,15 @@
-import './App.css'
-import MovieCard from './components/MovieCard'
+import "./App.css";
+import Home from "./pages/Home"
 
 
 function App() {
+  const movieNumber = 1;
+
   return (
-  <div>
-    <MovieCard movie={{title: "krrish ki picture", release_date:2006}} />
-    <MovieCard movie={{title: "ansh ki picture", release_date:2004}} />
-  </div>
-  )
+    <>
+      <Home />
+    </>
+  );
 }
 
-export default App
+export default App;
